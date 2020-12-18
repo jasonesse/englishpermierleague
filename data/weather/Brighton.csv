@@ -1480,7 +1480,6 @@ EGKK,observation,1567293600,EGKK,London/Gatwick,2019-08-31 21:20:00,N,55,33,3300
 EGKK,observation,1567295400,EGKK,London/Gatwick,2019-08-31 21:50:00,N,55,33,3300,Fair,,,52,55,88,29.72,6,55,270.0,W,,7,,,,,,Low,55,0,,,,,CLR,,,,,,,,,
 EGKK,observation,1567297200,EGKK,London/Gatwick,2019-08-31 22:20:00,N,54,33,3300,Fair,,,50,54,88,29.72,6,54,270.0,W,,7,,,,,,Low,54,0,,,,,CLR,,,,,,,,,
 EGKK,observation,1567299000,EGKK,London/Gatwick,2019-08-31 22:50:00,N,55,33,3300,Fair,,,52,55,88,29.72,6,55,260.0,W,,6,,,,,,Low,55,0,,,,,CLR,,,,,,,,,
-key,class,expire_time_gmt,obs_id,obs_name,valid_time_gmt,day_ind,temp,wx_icon,icon_extd,wx_phrase,pressure_tend,pressure_desc,dewPt,heat_index,rh,pressure,vis,wc,wdir,wdir_cardinal,gust,wspd,max_temp,min_temp,precip_total,precip_hrly,snow_hrly,uv_desc,feels_like,uv_index,qualifier,qualifier_svrty,blunt_phrase,terse_phrase,clds,water_temp,primary_wave_period,primary_wave_height,primary_swell_period,primary_swell_height,primary_swell_direction,secondary_swell_period,secondary_swell_height,secondary_swell_direction
 EGKK,observation,1567300800,EGKK,London/Gatwick,2019-08-31 23:20:00,N,54,33,3300,Fair,,,50,54,88,29.75,6.0,54,250.0,WSW,,6,,,,,,Low,54,0,,,,,CLR,,,,,,,,,
 EGKK,observation,1567302600,EGKK,London/Gatwick,2019-08-31 23:50:00,N,54,33,3300,Fair,,,52,54,94,29.75,6.0,54,230.0,SW,,2,,,,,,Low,54,0,,,,,CLR,,,,,,,,,
 EGKK,observation,1567304400,EGKK,London/Gatwick,2019-09-01 00:20:00,N,54,33,3300,Fair,,,52,54,94,29.75,6.0,54,210.0,SSW,,2,,,,,,Low,54,0,,,,,CLR,,,,,,,,,
@@ -2916,7 +2915,6 @@ EGKK,observation,1569885600,EGKK,London/Gatwick,2019-09-30 21:20:00,N,63,12,1200
 EGKK,observation,1569887400,EGKK,London/Gatwick,2019-09-30 21:50:00,N,63,12,1200,Rain,,,63,63,100,29.4,2.0,63,210.0,SSW,,12,,,,,,Low,63,0,,,,,BKN,,,,,,,,,
 EGKK,observation,1569889200,EGKK,London/Gatwick,2019-09-30 22:20:00,N,63,11,1201,Light Rain,,,63,63,100,29.37,6.0,63,210.0,SSW,28.0,15,,,,,,Low,63,0,,,,,BKN,,,,,,,,,
 EGKK,observation,1569891000,EGKK,London/Gatwick,2019-09-30 22:50:00,N,63,11,1201,Light Rain,,,61,63,94,29.37,6.0,63,230.0,SW,,16,,,,,,Low,63,0,,,,,BKN,,,,,,,,,
-key,class,expire_time_gmt,obs_id,obs_name,valid_time_gmt,day_ind,temp,wx_icon,icon_extd,wx_phrase,pressure_tend,pressure_desc,dewPt,heat_index,rh,pressure,vis,wc,wdir,wdir_cardinal,gust,wspd,max_temp,min_temp,precip_total,precip_hrly,snow_hrly,uv_desc,feels_like,uv_index,qualifier,qualifier_svrty,blunt_phrase,terse_phrase,clds,water_temp,primary_wave_period,primary_wave_height,primary_swell_period,primary_swell_height,primary_swell_direction,secondary_swell_period,secondary_swell_height,secondary_swell_direction
 EGKK,observation,1569892800,EGKK,London/Gatwick,2019-09-30 23:20:00,N,63,27,2700,Mostly Cloudy,,,61,63,94,29.37,6.0,63,240.0,WSW,,12,,,,,,Low,63,0,,,,,BKN,,,,,,,,,
 EGKK,observation,1569894600,EGKK,London/Gatwick,2019-09-30 23:50:00,N,61,27,2700,Mostly Cloudy,,,61,61,100,29.37,6.0,61,230.0,SW,,9,,,,,,Low,61,0,,,,,BKN,,,,,,,,,
 EGKK,observation,1569896400,EGKK,London/Gatwick,2019-10-01 00:20:00,N,61,27,2700,Mostly Cloudy,,,59,61,94,29.37,6.0,61,230.0,SW,,9,,,,,,Low,61,0,,,,,BKN,,,,,,,,,
@@ -4401,7 +4399,6 @@ EGKK,observation,1572567600,EGKK,London/Gatwick,2019-10-31 22:20:00,N,45,20,2002
 EGKK,observation,1572569400,EGKK,London/Gatwick,2019-10-31 22:50:00,N,45,20,2002,Mist,,,45,45,100,29.72,2.0,42,70.0,ENE,,5,,,,,,Low,42,0,,,,,BKN,,,,,,,,,
 EGKK,observation,1572571200,EGKK,London/Gatwick,2019-10-31 23:20:00,N,46,20,2002,Mist,,,45,46,93,29.69,2.0,46,80.0,E,,3,,,,,,Low,46,0,,,,,BKN,,,,,,,,,
 EGKK,observation,1572573000,EGKK,London/Gatwick,2019-10-31 23:50:00,N,46,20,2002,Mist,,,45,46,93,29.69,2.0,46,90.0,E,,2,,,,,,Low,46,0,,,,,OVC,,,,,,,,,
-key,class,expire_time_gmt,obs_id,obs_name,valid_time_gmt,day_ind,temp,wx_icon,icon_extd,wx_phrase,pressure_tend,pressure_desc,dewPt,heat_index,rh,pressure,vis,wc,wdir,wdir_cardinal,gust,wspd,max_temp,min_temp,precip_total,precip_hrly,snow_hrly,uv_desc,feels_like,uv_index,qualifier,qualifier_svrty,blunt_phrase,terse_phrase,clds,water_temp,primary_wave_period,primary_wave_height,primary_swell_period,primary_swell_height,primary_swell_direction,secondary_swell_period,secondary_swell_height,secondary_swell_direction
 EGKK,observation,1572576600,EGKK,London/Gatwick,2019-11-01 00:50:00,N,46,11,1201,Light Rain,,,46,46,100,29.67,1.0,44,70.0,ENE,,5,,,,,,Low,44,0,,,,,OVC,,,,,,,,,
 EGKK,observation,1572578400,EGKK,London/Gatwick,2019-11-01 01:20:00,N,46,11,1201,Light Rain,,,46,46,100,29.64,1.0,44,70.0,ENE,,5,,,,,,Low,44,0,,,,,OVC,,,,,,,,,
 EGKK,observation,1572580200,EGKK,London/Gatwick,2019-11-01 01:50:00,N,46,11,1201,Light Rain,,,46,46,100,29.61,0.93,44,80.0,E,,5,,,,,,Low,44,0,,,,,OVC,,,,,,,,,
@@ -5836,7 +5833,6 @@ EGKK,observation,1575159600,EGKK,London/Gatwick,2019-11-30 22:20:00,N,37,33,3300
 EGKK,observation,1575161400,EGKK,London/Gatwick,2019-11-30 22:50:00,N,37,33,3300,Fair,,,36,37,93,29.9,6.0,37,,VAR,,3,,,,,,Low,37,0,,,,,CLR,,,,,,,,,
 EGKK,observation,1575163200,EGKK,London/Gatwick,2019-11-30 23:20:00,N,36,33,3300,Fair,,,34,36,93,29.9,6.0,36,60.0,ENE,,3,,,,,,Low,36,0,,,,,CLR,,,,,,,,,
 EGKK,observation,1575165000,EGKK,London/Gatwick,2019-11-30 23:50:00,N,36,33,3300,Fair,,,34,36,93,29.9,6.0,36,60.0,ENE,,3,,,,,,Low,36,0,,,,,CLR,,,,,,,,,
-key,class,expire_time_gmt,obs_id,obs_name,valid_time_gmt,day_ind,temp,wx_icon,icon_extd,wx_phrase,pressure_tend,pressure_desc,dewPt,heat_index,rh,pressure,vis,wc,wdir,wdir_cardinal,gust,wspd,max_temp,min_temp,precip_total,precip_hrly,snow_hrly,uv_desc,feels_like,uv_index,qualifier,qualifier_svrty,blunt_phrase,terse_phrase,clds,water_temp,primary_wave_period,primary_wave_height,primary_swell_period,primary_swell_height,primary_swell_direction,secondary_swell_period,secondary_swell_height,secondary_swell_direction
 EGKK,observation,1575166800,EGKK,London/Gatwick,2019-12-01 00:20:00,N,36,33,3300,Fair,,,34,36,93,29.9,6.0,30,20.0,NNE,,7,,,,,,Low,30,0,,,,,CLR,,,,,,,,,
 EGKK,observation,1575168600,EGKK,London/Gatwick,2019-12-01 00:50:00,N,37,33,3300,Fair,,,34,37,87,29.9,6.0,31,40.0,NE,,8,,,,,,Low,31,0,,,,,CLR,,,,,,,,,
 EGKK,observation,1575170400,EGKK,London/Gatwick,2019-12-01 01:20:00,N,37,33,3300,Fair,,,34,37,87,29.87,6.0,32,40.0,NE,,7,,,,,,Low,32,0,,,,,CLR,,,,,,,,,
@@ -7323,7 +7319,6 @@ EGKK,observation,1577838000,EGKK,London/Gatwick,2019-12-31 22:20:00,N,37,33,3300
 EGKK,observation,1577839800,EGKK,London/Gatwick,2019-12-31 22:50:00,N,39,33,3300,Fair,,,39,39,100,30.22,3.0,39,90.0,E,,3,,,,,,Low,39,0,,,,,CLR,,,,,,,,,
 EGKK,observation,1577841600,EGKK,London/Gatwick,2019-12-31 23:20:00,N,36,20,2021,Shallow Fog,,,36,36,100,30.22,3.0,36,,VAR,,2,,,,,,Low,36,0,,,,,CLR,,,,,,,,,
 EGKK,observation,1577843400,EGKK,London/Gatwick,2019-12-31 23:50:00,N,36,20,2002,Mist,,,36,36,100,30.19,2.0,36,60.0,ENE,,1,,,,,,Low,36,0,,,,,FEW,,,,,,,,,
-key,class,expire_time_gmt,obs_id,obs_name,valid_time_gmt,day_ind,temp,wx_icon,icon_extd,wx_phrase,pressure_tend,pressure_desc,dewPt,heat_index,rh,pressure,vis,wc,wdir,wdir_cardinal,gust,wspd,max_temp,min_temp,precip_total,precip_hrly,snow_hrly,uv_desc,feels_like,uv_index,qualifier,qualifier_svrty,blunt_phrase,terse_phrase,clds,water_temp,primary_wave_period,primary_wave_height,primary_swell_period,primary_swell_height,primary_swell_direction,secondary_swell_period,secondary_swell_height,secondary_swell_direction
 EGKK,observation,1577845200,EGKK,London/Gatwick,2020-01-01 00:20:00,N,34,20,2002,Mist,,,34,34,100,30.19,2.0,34,90.0,E,,2,,,,,,Low,34,0,,,,,SCT,,,,,,,,,
 EGKK,observation,1577847000,EGKK,London/Gatwick,2020-01-01 00:50:00,N,36,20,2002,Mist,,,36,36,100,30.19,2.0,31,80.0,E,,6,,,,,,Low,31,0,,,,,BKN,,,,,,,,,
 EGKK,observation,1577848800,EGKK,London/Gatwick,2020-01-01 01:20:00,N,36,20,2002,Mist,,,36,36,100,30.19,2.0,32,80.0,E,,5,,,,,,Low,32,0,,,,,BKN,,,,,,,,,
@@ -8798,7 +8793,6 @@ EGKK,observation,1580516400,EGKK,London/Gatwick,2020-01-31 22:20:00,N,52,9,901,L
 EGKK,observation,1580518200,EGKK,London/Gatwick,2020-01-31 22:50:00,N,52,9,901,Light Drizzle,,,52,52,100,29.4,3.0,52,220.0,SW,,13,,,,,,Low,52,0,,,,,OVC,,,,,,,,,
 EGKK,observation,1580520000,EGKK,London/Gatwick,2020-01-31 23:20:00,N,52,11,1201,Light Rain,,,52,52,100,29.4,4.0,52,220.0,SW,,12,,,,,,Low,52,0,,,,,OVC,,,,,,,,,
 EGKK,observation,1580521800,EGKK,London/Gatwick,2020-01-31 23:50:00,N,52,11,1201,Light Rain,,,52,52,100,29.4,3.0,52,220.0,SW,,10,,,,,,Low,52,0,,,,,OVC,,,,,,,,,
-key,class,expire_time_gmt,obs_id,obs_name,valid_time_gmt,day_ind,temp,wx_icon,icon_extd,wx_phrase,pressure_tend,pressure_desc,dewPt,heat_index,rh,pressure,vis,wc,wdir,wdir_cardinal,gust,wspd,max_temp,min_temp,precip_total,precip_hrly,snow_hrly,uv_desc,feels_like,uv_index,qualifier,qualifier_svrty,blunt_phrase,terse_phrase,clds,water_temp,primary_wave_period,primary_wave_height,primary_swell_period,primary_swell_height,primary_swell_direction,secondary_swell_period,secondary_swell_height,secondary_swell_direction
 EGKK,observation,1580523600,EGKK,London/Gatwick,2020-02-01 00:20:00,N,52,26,2600,Cloudy,,,52,52,100,29.4,5.0,52,220.0,SW,,13,,,,,,Low,52,0,,,,,OVC,,,,,,,,,
 EGKK,observation,1580525400,EGKK,London/Gatwick,2020-02-01 00:50:00,N,52,11,1201,Light Rain,,,52,52,100,29.4,4.0,52,220.0,SW,,12,,,,,,Low,52,0,,,,,OVC,,,,,,,,,
 EGKK,observation,1580527200,EGKK,London/Gatwick,2020-02-01 01:20:00,N,52,11,1201,Light Rain,,,52,52,100,29.4,3.0,52,220.0,SW,,9,,,,,,Low,52,0,,,,,BKN,,,,,,,,,
@@ -10189,7 +10183,6 @@ EGKK,observation,1583022000,EGKK,London/Gatwick,2020-02-29 22:20:00,N,43,29,2900
 EGKK,observation,1583023800,EGKK,London/Gatwick,2020-02-29 22:50:00,N,43,29,2900,Partly Cloudy,,,34,43,70,28.96,6.0,35,230.0,SW,,16,,,,,,Low,35,0,,,,,SCT,,,,,,,,,
 EGKK,observation,1583025600,EGKK,London/Gatwick,2020-02-29 23:20:00,N,43,29,2900,Partly Cloudy,,,34,43,70,28.99,6.0,35,230.0,SW,,18,,,,,,Low,35,0,,,,,SCT,,,,,,,,,
 EGKK,observation,1583027400,EGKK,London/Gatwick,2020-02-29 23:50:00,N,41,33,3300,Fair,,,36,41,81,28.96,6.0,33,210.0,SSW,,15,,,,,,Low,33,0,,,,,FEW,,,,,,,,,
-key,class,expire_time_gmt,obs_id,obs_name,valid_time_gmt,day_ind,temp,wx_icon,icon_extd,wx_phrase,pressure_tend,pressure_desc,dewPt,heat_index,rh,pressure,vis,wc,wdir,wdir_cardinal,gust,wspd,max_temp,min_temp,precip_total,precip_hrly,snow_hrly,uv_desc,feels_like,uv_index,qualifier,qualifier_svrty,blunt_phrase,terse_phrase,clds,water_temp,primary_wave_period,primary_wave_height,primary_swell_period,primary_swell_height,primary_swell_direction,secondary_swell_period,secondary_swell_height,secondary_swell_direction
 EGKK,observation,1583029200,EGKK,London/Gatwick,2020-03-01 00:20:00,N,41,33,3300,Fair,,,34,41,76,28.96,6,34,220.0,SW,,12,,,,,,Low,34,0,,,,,FEW,,,,,,,,,
 EGKK,observation,1583031000,EGKK,London/Gatwick,2020-03-01 00:50:00,N,41,33,3300,Fair,,,36,41,81,28.96,6,35,210.0,SSW,,10,,,,,,Low,35,0,,,,,CLR,,,,,,,,,
 EGKK,observation,1583032800,EGKK,London/Gatwick,2020-03-01 01:20:00,N,41,33,3300,Fair,,,34,41,76,28.96,6,35,210.0,SSW,,9,,,,,,Low,35,0,,,,,FEW,,,,,,,,,

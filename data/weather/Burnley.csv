@@ -1478,7 +1478,6 @@ EGNM,observation,1567293600,EGNM,Leeds,2019-08-31 21:20:00,N,52,33,3300,Fair,,,4
 EGNM,observation,1567295400,EGNM,Leeds,2019-08-31 21:50:00,N,52,33,3300,Fair,,,46,52,82,29.13,6.0,52,260.0,W,,9,,,,,,Low,52,0,,,,,CLR,,,,,,,,,
 EGNM,observation,1567297200,EGNM,Leeds,2019-08-31 22:20:00,N,52,33,3300,Fair,,,48,52,88,29.13,6.0,52,250.0,WSW,,8,,,,,,Low,52,0,,,,,CLR,,,,,,,,,
 EGNM,observation,1567299000,EGNM,Leeds,2019-08-31 22:50:00,N,52,33,3300,Fair,,,46,52,82,29.13,6.0,52,250.0,WSW,,8,,,,,,Low,52,0,,,,,CLR,,,,,,,,,
-key,class,expire_time_gmt,obs_id,obs_name,valid_time_gmt,day_ind,temp,wx_icon,icon_extd,wx_phrase,pressure_tend,pressure_desc,dewPt,heat_index,rh,pressure,vis,wc,wdir,wdir_cardinal,gust,wspd,max_temp,min_temp,precip_total,precip_hrly,snow_hrly,uv_desc,feels_like,uv_index,qualifier,qualifier_svrty,blunt_phrase,terse_phrase,clds,water_temp,primary_wave_period,primary_wave_height,primary_swell_period,primary_swell_height,primary_swell_direction,secondary_swell_period,secondary_swell_height,secondary_swell_direction
 EGNM,observation,1567300800,EGNM,Leeds,2019-08-31 23:20:00,N,50,33,3300,Fair,,,46,50,87,29.13,6.0,50,260.0,W,,6,,,,,,Low,50,0,,,,,CLR,,,,,,,,,
 EGNM,observation,1567302600,EGNM,Leeds,2019-08-31 23:50:00,N,52,33,3300,Fair,,,46,52,82,29.16,6.0,52,250.0,WSW,,5,,,,,,Low,52,0,,,,,FEW,,,,,,,,,
 EGNM,observation,1567304400,EGNM,Leeds,2019-09-01 00:20:00,N,52,33,3300,Fair,,,48,52,88,29.16,6.0,52,250.0,WSW,,5,,,,,,Low,52,0,,,,,FEW,,,,,,,,,
@@ -2909,7 +2908,6 @@ EGNM,observation,1569885600,EGNM,Leeds,2019-09-30 21:20:00,N,50,12,1200,Rain,,,4
 EGNM,observation,1569887400,EGNM,Leeds,2019-09-30 21:50:00,N,50,12,1200,Rain,,,48,50,94,28.84,1.0,50,80.0,E,,12,,,,,,Low,50,0,,,,,BKN,,,,,,,,,
 EGNM,observation,1569889200,EGNM,Leeds,2019-09-30 22:20:00,N,50,12,1200,Rain,,,48,50,94,28.81,1.0,50,80.0,E,,13,,,,,,Low,50,0,,,,,BKN,,,,,,,,,
 EGNM,observation,1569891000,EGNM,Leeds,2019-09-30 22:50:00,N,50,12,1200,Rain,,,50,50,100,28.81,1.0,50,90.0,E,,13,,,,,,Low,50,0,,,,,BKN,,,,,,,,,
-key,class,expire_time_gmt,obs_id,obs_name,valid_time_gmt,day_ind,temp,wx_icon,icon_extd,wx_phrase,pressure_tend,pressure_desc,dewPt,heat_index,rh,pressure,vis,wc,wdir,wdir_cardinal,gust,wspd,max_temp,min_temp,precip_total,precip_hrly,snow_hrly,uv_desc,feels_like,uv_index,qualifier,qualifier_svrty,blunt_phrase,terse_phrase,clds,water_temp,primary_wave_period,primary_wave_height,primary_swell_period,primary_swell_height,primary_swell_direction,secondary_swell_period,secondary_swell_height,secondary_swell_direction
 EGNM,observation,1569892800,EGNM,Leeds,2019-09-30 23:20:00,N,50,12,1200,Rain,,,48,50,94,28.81,1.0,50.0,80.0,E,,10.0,,,,,,Low,50.0,0,,,,,BKN,,,,,,,,,
 EGNM,observation,1569894600,EGNM,Leeds,2019-09-30 23:50:00,N,50,12,1200,Rain,,,50,50,100,28.81,1.0,50.0,80.0,E,,10.0,,,,,,Low,50.0,0,,,,,BKN,,,,,,,,,
 EGNM,observation,1569896400,EGNM,Leeds,2019-10-01 00:20:00,N,50,12,1200,Rain,,,48,50,94,28.81,1.0,50.0,70.0,ENE,,9.0,,,,,,Low,50.0,0,,,,,BKN,,,,,,,,,
@@ -4382,7 +4380,6 @@ EGNM,observation,1572567600,EGNM,Leeds,2019-10-31 22:20:00,N,43,20,2002,Mist,,,4
 EGNM,observation,1572569400,EGNM,Leeds,2019-10-31 22:50:00,N,43,20,2002,Mist,,,43,43,100,29.16,1.0,37.0,150.0,SSE,,10.0,,,,,,Low,37.0,0,,,,,BKN,,,,,,,,,
 EGNM,observation,1572571200,EGNM,Leeds,2019-10-31 23:20:00,N,43,20,2002,Mist,,,43,43,100,29.13,1.0,37.0,150.0,SSE,,10.0,,,,,,Low,37.0,0,,,,,BKN,,,,,,,,,
 EGNM,observation,1572573000,EGNM,Leeds,2019-10-31 23:50:00,N,43,9,901,Light Drizzle,,,43,43,100,29.13,0.87,37.0,140.0,SE,,10.0,,,,,,Low,37.0,0,,,,,BKN,,,,,,,,,
-key,class,expire_time_gmt,obs_id,obs_name,valid_time_gmt,day_ind,temp,wx_icon,icon_extd,wx_phrase,pressure_tend,pressure_desc,dewPt,heat_index,rh,pressure,vis,wc,wdir,wdir_cardinal,gust,wspd,max_temp,min_temp,precip_total,precip_hrly,snow_hrly,uv_desc,feels_like,uv_index,qualifier,qualifier_svrty,blunt_phrase,terse_phrase,clds,water_temp,primary_wave_period,primary_wave_height,primary_swell_period,primary_swell_height,primary_swell_direction,secondary_swell_period,secondary_swell_height,secondary_swell_direction
 EGNM,observation,1572574800,EGNM,Leeds,2019-11-01 00:20:00,N,43.0,11,1201,Light Rain,,,43.0,43.0,100.0,29.1,0.75,37.0,140.0,SE,,12.0,,,,,,Low,37.0,0,,,,,BKN,,,,,,,,,
 EGNM,observation,1572576600,EGNM,Leeds,2019-11-01 00:50:00,N,43.0,11,1201,Light Rain,,,43.0,43.0,100.0,29.1,0.5,37.0,140.0,SE,,10.0,,,,,,Low,37.0,0,,,,,BKN,,,,,,,,,
 EGNM,observation,1572578400,EGNM,Leeds,2019-11-01 01:20:00,N,43.0,11,1201,Light Rain,,,43.0,43.0,100.0,29.07,0.19,37.0,140.0,SE,,10.0,,,,,,Low,37.0,0,,,,,OVC,,,,,,,,,
@@ -5808,7 +5805,6 @@ EGNM,observation,1575159600,EGNM,Leeds,2019-11-30 22:20:00,N,34.0,33,3300,Fair,,
 EGNM,observation,1575161400,EGNM,Leeds,2019-11-30 22:50:00,N,34.0,33,3300,Fair,,,32.0,34.0,93.0,29.5,6.0,34.0,,VAR,,1.0,,,,,,Low,34.0,0,,,,,FEW,,,,,,,,,
 EGNM,observation,1575163200,EGNM,Leeds,2019-11-30 23:20:00,N,34.0,29,2900,Partly Cloudy,,,32.0,34.0,93.0,29.5,6.0,30.0,350.0,N,,5.0,,,,,,Low,30.0,0,,,,,SCT,,,,,,,,,
 EGNM,observation,1575165000,EGNM,Leeds,2019-11-30 23:50:00,N,36.0,29,2900,Partly Cloudy,,,32.0,36.0,87.0,29.5,6.0,36.0,,VAR,,2.0,,,,,,Low,36.0,0,,,,,SCT,,,,,,,,,
-key,class,expire_time_gmt,obs_id,obs_name,valid_time_gmt,day_ind,temp,wx_icon,icon_extd,wx_phrase,pressure_tend,pressure_desc,dewPt,heat_index,rh,pressure,vis,wc,wdir,wdir_cardinal,gust,wspd,max_temp,min_temp,precip_total,precip_hrly,snow_hrly,uv_desc,feels_like,uv_index,qualifier,qualifier_svrty,blunt_phrase,terse_phrase,clds,water_temp,primary_wave_period,primary_wave_height,primary_swell_period,primary_swell_height,primary_swell_direction,secondary_swell_period,secondary_swell_height,secondary_swell_direction
 EGNM,observation,1575166800,EGNM,Leeds,2019-12-01 00:20:00,N,36,29,2900,Partly Cloudy,,,32,36,87,29.5,6.0,36,,VAR,,3,,,,,,Low,36,0,,,,,SCT,,,,,,,,,
 EGNM,observation,1575168600,EGNM,Leeds,2019-12-01 00:50:00,N,34,33,3300,Fair,,,32,34,93,29.5,6.0,34,20.0,NNE,,2,,,,,,Low,34,0,,,,,FEW,,,,,,,,,
 EGNM,observation,1575170400,EGNM,Leeds,2019-12-01 01:20:00,N,36,27,2700,Mostly Cloudy,,,32,36,87,29.5,6.0,36,,VAR,,3,,,,,,Low,36,0,,,,,BKN,,,,,,,,,
@@ -7218,7 +7214,6 @@ EGNM,observation,1577838000,EGNM,Leeds,2019-12-31 22:20:00,N,39,20,2000,Fog,,,39
 EGNM,observation,1577839800,EGNM,Leeds,2019-12-31 22:50:00,N,39,20,2000,Fog,,,39,39,100,29.71,0.37,36,100.0,E,,5,,,,,,Low,36,0,,,,,OVC,,,,,,,,,
 EGNM,observation,1577841600,EGNM,Leeds,2019-12-31 23:20:00,N,39,20,2000,Fog,,,39,39,100,29.71,0.81,35,110.0,ESE,,6,,,,,,Low,35,0,,,,,BKN,,,,,,,,,
 EGNM,observation,1577843400,EGNM,Leeds,2019-12-31 23:50:00,N,39,20,2000,Fog,,,39,39,100,29.71,0.43,39,,VAR,,3,,,,,,Low,39,0,,,,,BKN,,,,,,,,,
-key,class,expire_time_gmt,obs_id,obs_name,valid_time_gmt,day_ind,temp,wx_icon,icon_extd,wx_phrase,pressure_tend,pressure_desc,dewPt,heat_index,rh,pressure,vis,wc,wdir,wdir_cardinal,gust,wspd,max_temp,min_temp,precip_total,precip_hrly,snow_hrly,uv_desc,feels_like,uv_index,qualifier,qualifier_svrty,blunt_phrase,terse_phrase,clds,water_temp,primary_wave_period,primary_wave_height,primary_swell_period,primary_swell_height,primary_swell_direction,secondary_swell_period,secondary_swell_height,secondary_swell_direction
 EGNM,observation,1577845200,EGNM,Leeds,2020-01-01 00:20:00,N,39,20,2000,Fog,,,39,39,100,29.71,0.75,36,140.0,SE,,5,,,,,,Low,36,0,,,,,BKN,,,,,,,,,
 EGNM,observation,1577847000,EGNM,Leeds,2020-01-01 00:50:00,N,37,20,2000,Fog,,,37,37,100,29.68,0.12,32,140.0,SE,,7,,,,,,Low,32,0,,,,,OVC,,,,,,,,,
 EGNM,observation,1577848800,EGNM,Leeds,2020-01-01 01:20:00,N,37,20,2000,Fog,,,37,37,100,29.68,0.16,31,150.0,SSE,,8,,,,,,Low,31,0,,,,,OVC,,,,,,,,,
@@ -8690,7 +8685,6 @@ EGNM,observation,1580516400,EGNM,Leeds,2020-01-31 22:20:00,N,48,33,3300,Fair,,,4
 EGNM,observation,1580518200,EGNM,Leeds,2020-01-31 22:50:00,N,48,33,3300,Fair,,,45,48,87,28.64,6.0,43,220.0,SW,,14,,,,,,Low,43,0,,,,,FEW,,,,,,,,,
 EGNM,observation,1580520000,EGNM,Leeds,2020-01-31 23:20:00,N,48,33,3300,Fair,,,45,48,87,28.64,6.0,42,230.0,SW,,17,,,,,,Low,42,0,,,,,FEW,,,,,,,,,
 EGNM,observation,1580521800,EGNM,Leeds,2020-01-31 23:50:00,N,48,33,3390,Fair / Windy,,,45,48,87,28.64,6.0,41,220.0,SW,35.0,22,,,,,,Low,41,0,,,,,FEW,,,,,,,,,
-key,class,expire_time_gmt,obs_id,obs_name,valid_time_gmt,day_ind,temp,wx_icon,icon_extd,wx_phrase,pressure_tend,pressure_desc,dewPt,heat_index,rh,pressure,vis,wc,wdir,wdir_cardinal,gust,wspd,max_temp,min_temp,precip_total,precip_hrly,snow_hrly,uv_desc,feels_like,uv_index,qualifier,qualifier_svrty,blunt_phrase,terse_phrase,clds,water_temp,primary_wave_period,primary_wave_height,primary_swell_period,primary_swell_height,primary_swell_direction,secondary_swell_period,secondary_swell_height,secondary_swell_direction
 EGNM,observation,1580523600,EGNM,Leeds,2020-02-01 00:20:00,N,48,33,3300,Fair,,,45,48,87,28.61,6.0,41,220.0,SW,,20,,,,,,Low,41,0,,,,,CLR,,,,,,,,,
 EGNM,observation,1580525400,EGNM,Leeds,2020-02-01 00:50:00,N,48,33,3390,Fair / Windy,,,43,48,82,28.61,6.0,40,230.0,SW,36.0,24,,,,,,Low,40,0,,,,,CLR,,,,,,,,,
 EGNM,observation,1580527200,EGNM,Leeds,2020-02-01 01:20:00,N,48,33,3390,Fair / Windy,,,43,48,82,28.61,6.0,41,230.0,SW,37.0,23,,,,,,Low,41,0,,,,,CLR,,,,,,,,,
@@ -10069,7 +10063,6 @@ EGNM,observation,1583022000,EGNM,Leeds,2020-02-29 22:20:00,N,41,11,1291,Light Ra
 EGNM,observation,1583023800,EGNM,Leeds,2020-02-29 22:50:00,N,41,11,1291,Light Rain / Windy,,,36,41,81,28.06,6.0,30,230.0,SW,41.0,28,,,,,,Low,30,0,,,,,BKN,,,,,,,,,
 EGNM,observation,1583025600,EGNM,Leeds,2020-02-29 23:20:00,N,41,27,2790,Mostly Cloudy / Windy,,,34,41,76,28.06,6.0,30,230.0,SW,49.0,31,,,,,,Low,30,0,,,,,BKN,,,,,,,,,
 EGNM,observation,1583027400,EGNM,Leeds,2020-02-29 23:50:00,N,41,27,2790,Mostly Cloudy / Windy,,,34,41,76,28.06,6.0,30,230.0,SW,,28,,,,,,Low,30,0,,,,,BKN,,,,,,,,,
-key,class,expire_time_gmt,obs_id,obs_name,valid_time_gmt,day_ind,temp,wx_icon,icon_extd,wx_phrase,pressure_tend,pressure_desc,dewPt,heat_index,rh,pressure,vis,wc,wdir,wdir_cardinal,gust,wspd,max_temp,min_temp,precip_total,precip_hrly,snow_hrly,uv_desc,feels_like,uv_index,qualifier,qualifier_svrty,blunt_phrase,terse_phrase,clds,water_temp,primary_wave_period,primary_wave_height,primary_swell_period,primary_swell_height,primary_swell_direction,secondary_swell_period,secondary_swell_height,secondary_swell_direction
 EGNM,observation,1583029200,EGNM,Leeds,2020-03-01 00:20:00,N,41,27,2790,Mostly Cloudy / Windy,,,34,41,76,28.09,6.0,31,230.0,SW,38.0,23,,,,,,Low,31,0,,,,,BKN,,,,,,,,,
 EGNM,observation,1583031000,EGNM,Leeds,2020-03-01 00:50:00,N,41,29,2990,Partly Cloudy / Windy,,,32,41,70,28.09,6.0,31,230.0,SW,36.0,24,,,,,,Low,31,0,,,,,SCT,,,,,,,,,
 EGNM,observation,1583032800,EGNM,Leeds,2020-03-01 01:20:00,N,39,29,2990,Partly Cloudy / Windy,,,32,39,75,28.09,6.0,29,220.0,SW,35.0,22,,,,,,Low,29,0,,,,,SCT,,,,,,,,,

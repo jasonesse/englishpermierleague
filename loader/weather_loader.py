@@ -4,6 +4,34 @@ import requests
 import datetime
 from data.mapping.epl2020_stadiums import stadiums
 
+#remove after finished stadium map
+home_teams = ['Arsenal', 'Aston Villa', 'Bournemouth', 'Brighton', 'Burnley']
+
+def load(df: pd.DataFrame, generate=False):
+    if generate:
+        generate_weather_data(df)
+
+    #get all weather for teams
+    weather_df = pd.DataFrame()
+    for team in home_teams:
+        weather_df = pd.concat([weather_df, pd.read_csv(f'.\data\weather\{team}.csv')])
+    #replace key with teamId
+    #build dictionary with key and code
+    team_stadium = {}
+    for key,val in stadiums.items():
+        team_stadium.update({val[2].replace(':9:GB', '') : key})
+    weather_df['key'] = weather_df['key'].map(team_stadium)
+    #TODO Matches are usually 90 min with extra depending.
+    #Weather data is actually always logged at :20 and :50 of the hour, and games start at 00 or 30 min.
+    #Realign data to match 10 minute offset.
+    weather_df['valid_time_gmt'] = weather_df['valid_time_gmt'].apply(lambda x: get_date(x) + datetime.timedelta(minutes=10))
+    df['date'] = df['date'].apply(lambda x: get_date(x))
+    #weather_df['game_time_adjusted'] = weather_df.apply(lambda x: add_time(x['valid_time_gmt'], axis=1))
+    source_df = pd.merge(df, weather_df, left_on=['teamId', 'date'], right_on=['key','valid_time_gmt'])
+    source_df.to_csv('epl2020_and_weather.csv')
+
+
+    
 def get_team_dates(df:pd.DataFrame):
     # get min/max date range
     teams_df = df.groupby(['teamId'])
@@ -18,7 +46,13 @@ def get_date(date_str):
 def get_str_date(date):
     return datetime.datetime.strftime(date,'%Y%m%d')
 
+def add_time(date, minutes=10):
+    return date + datetime.timedelta(minutes=minutes)
+    
+
+
 def generate_weather_data(df: pd.DataFrame):
+    df= df[['h_a','date','teamId']]
     home_teams_df = df[df['h_a']=='h']
     #TODO get the rest of the stadium data... for now here's a sample
     home_teams_df = home_teams_df[home_teams_df['teamId'].isin(['Arsenal', 'Aston Villa', 'Bournemouth', 'Brighton', 'Burnley'])]
@@ -39,17 +73,10 @@ def generate_weather_data(df: pd.DataFrame):
             stadium_df = get(weather_code=weather_code, start_date=get_str_date(start_dt), end_date=get_str_date(dt), debug=False)
             if first_append:
                 #export headers once.
-                stadium_df.to_csv(f'{team}.csv',columns=stadium_df.columns, index=False,mode='a')
+                stadium_df.to_csv(f'{team}.csv',header=True, index=False,mode='a')
                 first_append = False
             else:
-                stadium_df.to_csv(f'{team}.csv', index=False,mode='a')
-
-
-        
-
-
-
-
+                stadium_df.to_csv(f'{team}.csv',header=False, index=False,mode='a')
 
 def get(weather_code: str, start_date, end_date, debug=False):
     resp = requests.get(f'https://api.weather.com/v1/location/{weather_code}/observations/historical.json?apiKey=6532d6454b8aa370768e63d6ba5a832e&units=e&startDate={start_date}&endDate={end_date}')

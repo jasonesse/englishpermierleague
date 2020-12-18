@@ -1080,7 +1080,6 @@ EGHH,observation,1567288200,EGHH,Bournemouth,2019-08-31 19:50:00,N,59,33,3300,Fa
 EGHH,observation,1567290000,EGHH,Bournemouth,2019-08-31 20:20:00,N,57,33,3300,Fair,,,50,57,77,29.9,6.0,57,290.0,WNW,,9,,,,,,Low,57,0,,,,,CLR,,,,,,,,,
 EGHH,observation,1567295400,EGHH,Bournemouth,2019-08-31 21:50:00,N,52,33,3300,Fair,,,46,52,82,29.93,6.0,52,280.0,W,,6,,,,,,Low,52,0,,,,,CLR,,,,,,,,,
 EGHH,observation,1567299000,EGHH,Bournemouth,2019-08-31 22:50:00,N,54,33,3300,Fair,,,50,54,88,29.93,6.0,54,280.0,W,,9,,,,,,Low,54,0,,,,,CLR,,,,,,,,,
-key,class,expire_time_gmt,obs_id,obs_name,valid_time_gmt,day_ind,temp,wx_icon,icon_extd,wx_phrase,pressure_tend,pressure_desc,dewPt,heat_index,rh,pressure,vis,wc,wdir,wdir_cardinal,gust,wspd,max_temp,min_temp,precip_total,precip_hrly,snow_hrly,uv_desc,feels_like,uv_index,qualifier,qualifier_svrty,blunt_phrase,terse_phrase,clds,water_temp,primary_wave_period,primary_wave_height,primary_swell_period,primary_swell_height,primary_swell_direction,secondary_swell_period,secondary_swell_height,secondary_swell_direction
 EGHH,observation,1567320600,EGHH,Bournemouth,2019-09-01 04:50:00,N,46,33,3300,Fair,,,46,46,100,29.96,6.0,46,30.0,NNE,,1,,,,,,Low,46,0,,,,,FEW,,,,,,,,,
 EGHH,observation,1567322400,EGHH,Bournemouth,2019-09-01 05:20:00,D,48,34,3400,Fair,,,46,48,93,29.96,6.0,48,330.0,NNW,,3,,,,,,Low,48,0,,,,,FEW,,,,,,,,,
 EGHH,observation,1567324200,EGHH,Bournemouth,2019-09-01 05:50:00,D,50,34,3400,Fair,,,48,50,94,29.99,6.0,50,320.0,NW,,2,,,,,,Low,50,0,,,,,FEW,,,,,,,,,
@@ -2132,7 +2131,6 @@ EGHH,observation,1569883800,EGHH,Bournemouth,2019-09-30 20:50:00,N,63,27,2700,Mo
 EGHH,observation,1569885600,EGHH,Bournemouth,2019-09-30 21:20:00,N,63,29,2900,Partly Cloudy,,,61,63,94,29.55,6.0,63,240.0,WSW,,14,,,,,,Low,63,0,,,,,SCT,,,,,,,,,
 EGHH,observation,1569887400,EGHH,Bournemouth,2019-09-30 21:50:00,N,63,29,2900,Partly Cloudy,,,59,63,88,29.58,6.0,63,240.0,WSW,,13,,,,,,Low,63,0,,,,,SCT,,,,,,,,,
 EGHH,observation,1569889200,EGHH,Bournemouth,2019-09-30 22:20:00,N,63,27,2700,Mostly Cloudy,,,59,63,88,29.58,6.0,63,250.0,WSW,,10,,,,,,Low,63,0,,,,,BKN,,,,,,,,,
-key,class,expire_time_gmt,obs_id,obs_name,valid_time_gmt,day_ind,temp,wx_icon,icon_extd,wx_phrase,pressure_tend,pressure_desc,dewPt,heat_index,rh,pressure,vis,wc,wdir,wdir_cardinal,gust,wspd,max_temp,min_temp,precip_total,precip_hrly,snow_hrly,uv_desc,feels_like,uv_index,qualifier,qualifier_svrty,blunt_phrase,terse_phrase,clds,water_temp,primary_wave_period,primary_wave_height,primary_swell_period,primary_swell_height,primary_swell_direction,secondary_swell_period,secondary_swell_height,secondary_swell_direction
 EGHH,observation,1569912600,EGHH,Bournemouth,2019-10-01 04:50:00,N,61,27,2700,Mostly Cloudy,,,59,61,94,29.46,6.0,61,220.0,SW,,8,,,,,,Low,61,0,,,,,BKN,,,,,,,,,
 EGHH,observation,1569914400,EGHH,Bournemouth,2019-10-01 05:20:00,N,61,29,2900,Partly Cloudy,,,59,61,94,29.46,6.0,61,220.0,SW,,9,,,,,,Low,61,0,,,,,SCT,,,,,,,,,
 EGHH,observation,1569916200,EGHH,Bournemouth,2019-10-01 05:50:00,D,61,30,3000,Partly Cloudy,,,57,61,88,29.46,6.0,61,230.0,SW,,10,,,,,,Low,61,0,,,,,SCT,,,,,,,,,
@@ -3226,7 +3224,6 @@ EGHH,observation,1572565800,EGHH,Bournemouth,2019-10-31 21:50:00,N,55,26,2600,Cl
 EGHH,observation,1572567600,EGHH,Bournemouth,2019-10-31 22:20:00,N,55,11,1201,Light Rain,,,54,55,94,29.87,5.0,55,180.0,S,,9,,,,,,Low,55,0,,,,,OVC,,,,,,,,,
 EGHH,observation,1572569400,EGHH,Bournemouth,2019-10-31 22:50:00,N,55,11,1201,Light Rain,,,54,55,94,29.87,2.0,55,170.0,S,,9,,,,,,Low,55,0,,,,,OVC,,,,,,,,,
 EGHH,observation,1572571200,EGHH,Bournemouth,2019-10-31 23:20:00,N,55,11,1201,Light Rain,,,55,55,100,29.85,3.0,55,160.0,SSE,,9,,,,,,Low,55,0,,,,,OVC,,,,,,,,,
-key,class,expire_time_gmt,obs_id,obs_name,valid_time_gmt,day_ind,temp,wx_icon,icon_extd,wx_phrase,pressure_tend,pressure_desc,dewPt,heat_index,rh,pressure,vis,wc,wdir,wdir_cardinal,gust,wspd,max_temp,min_temp,precip_total,precip_hrly,snow_hrly,uv_desc,feels_like,uv_index,qualifier,qualifier_svrty,blunt_phrase,terse_phrase,clds,water_temp,primary_wave_period,primary_wave_height,primary_swell_period,primary_swell_height,primary_swell_direction,secondary_swell_period,secondary_swell_height,secondary_swell_direction
 EGHH,observation,1572594600,EGHH,Bournemouth,2019-11-01 05:50:00,N,57,11,1201,Light Rain,,,55,57,94,29.58,1.0,57,160.0,SSE,,14,,,,,,Low,57,0,,,,,BKN,,,,,,,,,
 EGHH,observation,1572596400,EGHH,Bournemouth,2019-11-01 06:20:00,N,57,11,1201,Light Rain,,,55,57,94,29.55,1.0,57,170.0,S,,12,,,,,,Low,57,0,,,,,BKN,,,,,,,,,
 EGHH,observation,1572598200,EGHH,Bournemouth,2019-11-01 06:50:00,D,57,11,1201,Light Rain,,,57,57,100,29.55,1.0,57,170.0,S,,12,,,,,,Low,57,0,,,,,BKN,,,,,,,,,
@@ -4153,7 +4150,6 @@ EGHH,observation,1575150600,EGHH,Bournemouth,2019-11-30 19:50:00,N,43,33,3300,Fa
 EGHH,observation,1575152400,EGHH,Bournemouth,2019-11-30 20:20:00,N,43,29,2900,Partly Cloudy,,,36,43,76,30.02,6.0,37,70.0,ENE,,12,,,,,,Low,37,0,,,,,SCT,,,,,,,,,
 EGHH,observation,1575154200,EGHH,Bournemouth,2019-11-30 20:50:00,N,43,29,2900,Partly Cloudy,,,37,43,81,30.02,6.0,37,70.0,ENE,,10,,,,,,Low,37,0,,,,,SCT,,,,,,,,,
 EGHH,observation,1575156000,EGHH,Bournemouth,2019-11-30 21:20:00,N,43,27,2700,Mostly Cloudy,,,36,43,76,30.02,6.0,37,70.0,ENE,,10,,,,,,Low,37,0,,,,,BKN,,,,,,,,,
-key,class,expire_time_gmt,obs_id,obs_name,valid_time_gmt,day_ind,temp,wx_icon,icon_extd,wx_phrase,pressure_tend,pressure_desc,dewPt,heat_index,rh,pressure,vis,wc,wdir,wdir_cardinal,gust,wspd,max_temp,min_temp,precip_total,precip_hrly,snow_hrly,uv_desc,feels_like,uv_index,qualifier,qualifier_svrty,blunt_phrase,terse_phrase,clds,water_temp,primary_wave_period,primary_wave_height,primary_swell_period,primary_swell_height,primary_swell_direction,secondary_swell_period,secondary_swell_height,secondary_swell_direction
 EGHH,observation,1575190200,EGHH,Bournemouth,2019-12-01 06:50:00,N,37,33,3300,Fair,,,36,37,93,30.05,6.0,30,20.0,NNE,,12,,,,,,Low,30,0,,,,,CLR,,,,,,,,,
 EGHH,observation,1575192000,EGHH,Bournemouth,2019-12-01 07:20:00,D,37,34,3400,Fair,,,34,37,87,30.08,6.0,29,20.0,NNE,,14,,,,,,Low,29,0,,,,,CLR,,,,,,,,,
 EGHH,observation,1575193800,EGHH,Bournemouth,2019-12-01 07:50:00,D,37,34,3400,Fair,,,34,37,87,30.08,6.0,29,20.0,NNE,,14,,,,,,Low,29,0,,,,,CLR,,,,,,,,,
@@ -5115,7 +5111,6 @@ EGHH,observation,1577829000,EGHH,Bournemouth,2019-12-31 19:50:00,N,46,27,2700,Mo
 EGHH,observation,1577830800,EGHH,Bournemouth,2019-12-31 20:20:00,N,45,27,2700,Mostly Cloudy,,,41,45,87,30.35,6.0,38,140.0,SE,,13,,,,,,Low,38,0,,,,,BKN,,,,,,,,,
 EGHH,observation,1577832600,EGHH,Bournemouth,2019-12-31 20:50:00,N,45,26,2600,Cloudy,,,41,45,87,30.38,6.0,38,120.0,ESE,,13,,,,,,Low,38,0,,,,,OVC,,,,,,,,,
 EGHH,observation,1577834400,EGHH,Bournemouth,2019-12-31 21:20:00,N,45,29,2900,Partly Cloudy,,,41,45,87,30.38,6.0,41,100.0,E,,6,,,,,,Low,41,0,,,,,SCT,,,,,,,,,
-key,class,expire_time_gmt,obs_id,obs_name,valid_time_gmt,day_ind,temp,wx_icon,icon_extd,wx_phrase,pressure_tend,pressure_desc,dewPt,heat_index,rh,pressure,vis,wc,wdir,wdir_cardinal,gust,wspd,max_temp,min_temp,precip_total,precip_hrly,snow_hrly,uv_desc,feels_like,uv_index,qualifier,qualifier_svrty,blunt_phrase,terse_phrase,clds,water_temp,primary_wave_period,primary_wave_height,primary_swell_period,primary_swell_height,primary_swell_direction,secondary_swell_period,secondary_swell_height,secondary_swell_direction
 EGHH,observation,1577865000,EGHH,Bournemouth,2020-01-01 05:50:00,N,45,26,2600,Cloudy,,,43,45,93,30.32,6.0,41,70.0,ENE,,7,,,,,,Low,41,0,,,,,OVC,,,,,,,,,
 EGHH,observation,1577866800,EGHH,Bournemouth,2020-01-01 06:20:00,N,45,26,2600,Cloudy,,,41,45,87,30.32,6.0,41,80.0,E,,6,,,,,,Low,41,0,,,,,OVC,,,,,,,,,
 EGHH,observation,1577868600,EGHH,Bournemouth,2020-01-01 06:50:00,N,45,26,2600,Cloudy,,,43,45,93,30.35,6.0,40,70.0,ENE,,8,,,,,,Low,40,0,,,,,OVC,,,,,,,,,
@@ -6081,7 +6076,6 @@ EGHH,observation,1580511000,EGHH,Bournemouth,2020-01-31 20:50:00,N,54,9,901,Ligh
 EGHH,observation,1580512800,EGHH,Bournemouth,2020-01-31 21:20:00,N,54,26,2600,Cloudy,,,52,54,94,29.61,6.0,54,240.0,WSW,,13,,,,,,Low,54,0,,,,,OVC,,,,,,,,,
 EGHH,observation,1580514600,EGHH,Bournemouth,2020-01-31 21:50:00,N,52,11,1201,Light Rain,,,52,52,100,29.58,6.0,52,230.0,SW,,16,,,,,,Low,52,0,,,,,BKN,,,,,,,,,
 EGHH,observation,1580516400,EGHH,Bournemouth,2020-01-31 22:20:00,N,52,27,2700,Mostly Cloudy,,,52,52,100,29.58,6.0,52,240.0,WSW,,15,,,,,,Low,52,0,,,,,BKN,,,,,,,,,
-key,class,expire_time_gmt,obs_id,obs_name,valid_time_gmt,day_ind,temp,wx_icon,icon_extd,wx_phrase,pressure_tend,pressure_desc,dewPt,heat_index,rh,pressure,vis,wc,wdir,wdir_cardinal,gust,wspd,max_temp,min_temp,precip_total,precip_hrly,snow_hrly,uv_desc,feels_like,uv_index,qualifier,qualifier_svrty,blunt_phrase,terse_phrase,clds,water_temp,primary_wave_period,primary_wave_height,primary_swell_period,primary_swell_height,primary_swell_direction,secondary_swell_period,secondary_swell_height,secondary_swell_direction
 EGHH,observation,1580543400,EGHH,Bournemouth,2020-02-01 05:50:00,N,52,27,2700,Mostly Cloudy,,,50,52,94,29.58,6.0,52,240.0,WSW,,12,,,,,,Low,52,0,,,,,BKN,,,,,,,,,
 EGHH,observation,1580545200,EGHH,Bournemouth,2020-02-01 06:20:00,N,52,27,2700,Mostly Cloudy,,,48,52,88,29.58,6.0,52,240.0,WSW,,13,,,,,,Low,52,0,,,,,BKN,,,,,,,,,
 EGHH,observation,1580547000,EGHH,Bournemouth,2020-02-01 06:50:00,N,52,27,2700,Mostly Cloudy,,,48,52,88,29.58,6.0,52,240.0,WSW,,13,,,,,,Low,52,0,,,,,BKN,,,,,,,,,
@@ -7000,7 +6994,6 @@ EGHH,observation,1583000400,EGHH,Bournemouth,2020-02-29 16:20:00,D,41,11,1191,Li
 EGHH,observation,1583002200,EGHH,Bournemouth,2020-02-29 16:50:00,D,41,34,3400,Fair,,,36,41,81,29.11,6.0,33,240.0,WSW,,16,,,,,,Low,33,0,,,,,FEW,,,,,,,,,
 EGHH,observation,1583004000,EGHH,Bournemouth,2020-02-29 17:20:00,D,43,34,3490,Fair / Windy,,,36,43,76,29.11,6.0,33,240.0,WSW,36.0,24,,,,,,Low,33,0,,,,,FEW,,,,,,,,,
 EGHH,observation,1583005800,EGHH,Bournemouth,2020-02-29 17:50:00,N,45,26,2685,Showers in the Vicinity,,,34,45,66,29.14,6.0,35,240.0,WSW,39.0,25,,,,,,Low,35,0,,,,,SCT,,,,,,,,,
-key,class,expire_time_gmt,obs_id,obs_name,valid_time_gmt,day_ind,temp,wx_icon,icon_extd,wx_phrase,pressure_tend,pressure_desc,dewPt,heat_index,rh,pressure,vis,wc,wdir,wdir_cardinal,gust,wspd,max_temp,min_temp,precip_total,precip_hrly,snow_hrly,uv_desc,feels_like,uv_index,qualifier,qualifier_svrty,blunt_phrase,terse_phrase,clds,water_temp,primary_wave_period,primary_wave_height,primary_swell_period,primary_swell_height,primary_swell_direction,secondary_swell_period,secondary_swell_height,secondary_swell_direction
 EGHH,observation,1583052600,EGHH,Bournemouth,2020-03-01 06:50:00,D,41,34,3400,Fair,,,34,41,76,29.17,6.0,35,250.0,WSW,,10,,,,,,Low,35,0,,,,,FEW,,,,,,,,,
 EGHH,observation,1583056200,EGHH,Bournemouth,2020-03-01 07:50:00,D,43,34,3400,Fair,,,36,43,76,29.2,6.0,36,240.0,WSW,,14,,,,,,Low,36,0,,,,,FEW,,,,,,,,,
 EGHH,observation,1583058000,EGHH,Bournemouth,2020-03-01 08:20:00,D,43,34,3400,Fair,,,36,43,76,29.2,6.0,35,250.0,WSW,,16,,,,,,Low,35,0,,,,,CLR,,,,,,,,,
