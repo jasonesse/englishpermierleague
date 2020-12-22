@@ -5,19 +5,19 @@ stadiums = {
 ,'Bournemouth': ['Vitality Stadium', 'Bournemouth', 'EGHH:9:GB'] 
 ,'Brighton': ['Falmer Stadium', 'Brighton', 'EGKK:9:GB']
 ,'Burnley': ['Turf Moor', 'Burnley', 'EGNM:9:GB']
-# ,'Chelsea':''
-# ,'Crystal Palace':''
-# ,'Everton':''
-# ,'Leicester':''
-# ,'Liverpool':''
-# ,'Man City':''
-# ,'Man Utd':''
-# ,'Newcastle United':''
-# ,'Norwich':''
-# ,'Sheffield United':''
-# ,'Southampton':''
-# ,'Tottenham':''
-# ,'Watford':''
-# ,'West Ham':''
-# ,'Wolves':''         
-} 
+,'Chelsea': ['Stamford Bridge', 'London',  'EGLC:9:GB']
+,'Crystal Palace': ['Selhurst Park Stadium', 'London', 'EGLC:9:GB']
+,'Everton': ['Goodison Park', 'Liverpool', 'EGGP:9:GB']
+,'Leicester': ['King Power Stadium', 'Leicester', 'EGNX:9:GB']
+,'Liverpool': ['Anfield', 'Liverpool', 'EGGP:9:GB']
+,'Man City': ['Etihad Stadium', 'Manchester', 'EGCC:9:GB']
+,'Man Utd': ['Old Trafford', 'Manchester', 'EGCC:9:GB']
+,'Newcastle United': ['St. James Park', 'Newcastle', 'EGNT:9:GB']
+,'Norwich': ['Carrow Road Stadium', 'Norwich', 'EGSH:9:GB']
+,'Sheffield United': ['Bramall Lane', 'Sheffield', 'EGCN:9:GB']
+,'Southampton': ["St Mary's Stadium", 'Southampton', 'EGHI:9:GB']
+,'Tottenham': ['Tottenham Hotspur Stadium', 'London',  'EGLC:9:GB']
+,'Watford': ['Vicarage Road Stadium', 'Watford', 'EGLL:9:GB']
+,'West Ham': ['London Stadium', 'London',  'EGLC:9:GB']
+,'Wolves': ['Molineux Stadium', 'Wolverhampton', 'EGBB:9:GB']         
+}

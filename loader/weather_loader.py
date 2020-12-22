@@ -4,16 +4,13 @@ import requests
 import datetime
 from data.mapping.epl2020_stadiums import stadiums
 
-#remove after finished stadium map
-home_teams = ['Arsenal', 'Aston Villa', 'Bournemouth', 'Brighton', 'Burnley']
-
 def load(df: pd.DataFrame, generate=False):
     if generate:
         generate_weather_data(df)
 
     #get all weather for teams
     weather_df = pd.DataFrame()
-    for team in home_teams:
+    for team in stadiums.keys():
         weather_df = pd.concat([weather_df, pd.read_csv(f'.\data\weather\{team}.csv')])
     #replace key with teamId
     #build dictionary with key and code
@@ -27,14 +24,14 @@ def load(df: pd.DataFrame, generate=False):
     weather_df['valid_time_gmt'] = weather_df['valid_time_gmt'].apply(lambda x: get_date(x) + datetime.timedelta(minutes=10))
     df['date'] = df['date'].apply(lambda x: get_date(x))
     #weather_df['game_time_adjusted'] = weather_df.apply(lambda x: add_time(x['valid_time_gmt'], axis=1))
-    source_df = pd.merge(df, weather_df, left_on=['teamId', 'date'], right_on=['key','valid_time_gmt'])
+    source_df = pd.merge(df, weather_df, left_on=['teamId_home', 'date'], right_on=['key','valid_time_gmt'])#.drop_duplicates() TODO inspect this
     source_df.to_csv('epl2020_and_weather.csv')
 
 
     
 def get_team_dates(df:pd.DataFrame):
     # get min/max date range
-    teams_df = df.groupby(['teamId'])
+    teams_df = df.groupby(['teamId_home'])
     dates_df = teams_df['date'].agg([np.min, np.max])
     team_dates_df = pd.DataFrame(dates_df.to_records())
     team_dates_df.rename(columns={'amin':'min_date', 'amax': 'max_date'}, inplace=True)
@@ -52,14 +49,11 @@ def add_time(date, minutes=10):
 
 
 def generate_weather_data(df: pd.DataFrame):
-    df= df[['h_a','date','teamId']]
-    home_teams_df = df[df['h_a']=='h']
-    #TODO get the rest of the stadium data... for now here's a sample
-    home_teams_df = home_teams_df[home_teams_df['teamId'].isin(['Arsenal', 'Aston Villa', 'Bournemouth', 'Brighton', 'Burnley'])]
-    team_dates_df = get_team_dates(home_teams_df)
+    df= df[['date','teamId_home']]
+    team_dates_df = get_team_dates(df)
     #for each stadium extract the weather data into files per month.
     for team_dates in team_dates_df.iterrows():
-        team = team_dates[1]['teamId']
+        team = team_dates[1]['teamId_home']
         weather_code = stadiums.get(team)[2] #weather code is in the array
         start = team_dates[1]['min_date']
         start_date = get_date(start)
